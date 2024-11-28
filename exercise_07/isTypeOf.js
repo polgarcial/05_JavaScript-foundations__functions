@@ -1,8 +1,8 @@
 /**
  * #7 :: Export JS function "isTypeOf" to check if type of value matches type received as argument
- * input: 'string' | 'number' | 'boolean' | 'array' (value)
- * input: boolean (type)
- * output:
+ * input: any (value)
+ * input: 'string' | 'number' | 'boolean' | 'array' (type)
+ * output: boolean
  */
 
 /**
