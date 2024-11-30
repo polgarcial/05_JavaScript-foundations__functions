@@ -17,3 +17,13 @@
  * input: []
  * output: ""
  */
+
+const transformCollectionToString = function(collection) {
+    if (collection.length > 0) {
+        return collection.join(' | ');
+    } else {
+        return '';
+    }
+};
+
+export default transformCollectionToString;
