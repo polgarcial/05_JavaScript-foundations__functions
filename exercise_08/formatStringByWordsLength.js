@@ -16,3 +16,15 @@
  * CASE #2 * input: "This is short one."
  * output: "this is short one."
  */
+
+const formatStringByWordsLength = function(sentence) {
+    const wordCount = (sentence.match(/\w+/g) || []).length; // \w: Troba lletres, números i subratllats (_) i la +: Significa que volem una o més d'aquestes lletres/nombres o subratllats
+
+    if (wordCount > 5) {
+        return sentence.toUpperCase();
+    } else {
+        return sentence.toLowerCase();
+    }
+};
+
+export default formatStringByWordsLength;

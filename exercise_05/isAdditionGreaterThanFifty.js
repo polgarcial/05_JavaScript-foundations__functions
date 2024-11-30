@@ -4,3 +4,9 @@
  * input: number (summand2)
  * output: boolean
  */
+
+const isAdditionGreaterThanFifty = function(summand1, summand2) {
+    return (summand1 + summand2) >= 50;
+};
+
+export default isAdditionGreaterThanFifty;
